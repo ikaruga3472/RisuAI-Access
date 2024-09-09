@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Risu AI Access Extension",
+    "version": "1.21",
+    "description": "Am extension for Risu AI users using Screen Reader.\n기능\n1. 토글 체크박스\n2. NSFW 버튼",
+    "content_scripts": [
+      {
+        "matches": ["https://risuai.xyz/"],
+        "js": ["index.js"]
+      }
+    ]
+  }
