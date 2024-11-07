@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Risu AI Access Extension",
-    "version": "1.3",
+    "version": "2.0",
     "description": "RisuAI Accessibility Chrome Extension for screen reader users.",
     "content_scripts": [
       {
